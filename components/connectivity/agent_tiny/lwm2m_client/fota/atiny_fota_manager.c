@@ -90,7 +90,8 @@ void atiny_fota_manager_set_update_result(atiny_fota_manager_s *thi, atiny_updat
 
 int atiny_fota_manager_get_deliver_method(const atiny_fota_manager_s *thi)
 {
-    return PULL_ONLY;
+    return 
+PULL_ONLY;
 }
 int atiny_fota_manager_start_download(atiny_fota_manager_s *thi, const char *uri, uint32_t len)
 {
